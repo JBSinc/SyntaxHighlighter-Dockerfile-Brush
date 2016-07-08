@@ -16,8 +16,8 @@ SyntaxHighlighter.brushes.Dockerfile = function()
     { regex: SyntaxHighlighter.regexLib.DoubleQuotedString,             css: 'string' },
     { regex: SyntaxHighlighter.regexLib.singleQuotedString,             css: 'string' },
     { regex: SyntaxHighlighter.regexLib.url,                            css: 'color1' },
-    { regex: new RegExp(this.getKeywords(keywords), 'gmi'),             css: 'keyword' }
-    { regex: new RegExp(this.getKeywords(bashcmds), 'gmi'),             css: 'functions' },
+    { regex: new RegExp(this.getKeywords(keywords), 'gmi'),             css: 'keyword' },
+    { regex: new RegExp(this.getKeywords(bashcmds), 'gmi'),             css: 'functions' }
   ];
 
 };
