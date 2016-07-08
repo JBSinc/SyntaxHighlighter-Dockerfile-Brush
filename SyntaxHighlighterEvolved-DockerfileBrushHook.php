@@ -4,7 +4,7 @@
    Description: Adds support for the Dockerfile language to the SyntaxHighlighter Evolved plugin.
    Author: Aaron McMillin
    Version: 0.1.0
-   Author URI: https://github.com/aarcro/SyntaxHighlighter-Dockerfile-Brush
+   Author URI: https://github.com/JBSinc/SyntaxHighlighter-Dockerfile-Brush
  */
 
 // SyntaxHighlighter Evolved doesn't do anything until early in the "init" hook, so best to wait until after that
