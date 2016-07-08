@@ -7,6 +7,13 @@ This is a brush for [Alex Gorbachev's SyntaxHighlighter][syntaxhighlighterhome],
 Also included is a plugin for the [SyntaxHighlighter Evolved][syntaxhighlighterevolvedhome] plugin by [Viper007Bond][viperhome] for integrating syntax highlighting directly into [Wordpress][wordpresshome].
 
 
+Testing
+-------
+
+The docker compose file will spin up a wordpress docker image and mount this plugin. You'll need to install the SyntaxHighlighter plugin on your own, and activate both plugins. And possibly check file permissions so www-data (uid:33) can read the plugin files.
+
+docker-compose up
+
 References
 -----------
 

@@ -13,7 +13,7 @@ SyntaxHighlighter.brushes.Dockerfile = function()
 
   this.regexList = [
     { regex: SyntaxHighlighter.regexLib.singleLinePerlComments,         css: 'comments' },
-    { regex: SyntaxHighlighter.regexLib.DoubleQuotedString,             css: 'string' },
+    { regex: SyntaxHighlighter.regexLib.doubleQuotedString,             css: 'string' },
     { regex: SyntaxHighlighter.regexLib.singleQuotedString,             css: 'string' },
     { regex: SyntaxHighlighter.regexLib.url,                            css: 'color1' },
     { regex: new RegExp(this.getKeywords(keywords), 'gmi'),             css: 'keyword' },
@@ -22,5 +22,5 @@ SyntaxHighlighter.brushes.Dockerfile = function()
 
 };
 
-syntaxHighlighter.brushes.Dockerfile.prototype = new SyntaxHighlighter.Highlighter();
+SyntaxHighlighter.brushes.Dockerfile.prototype = new SyntaxHighlighter.Highlighter();
 SyntaxHighlighter.brushes.Dockerfile.aliases  = ['docker', 'dockerfile'];
